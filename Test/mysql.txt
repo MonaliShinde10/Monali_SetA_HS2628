@@ -1,0 +1,10 @@
+1)
+SELECT hotel_name As hotel_info, hotel_type
+FROM Hotel_details
+ORDER BY hotel_name DESC;
+
+2)
+SELECT car_id, car_name, owner_id
+FROM cars
+WHERE car_type IN ('Hatchback', 'SUV')
+ORDER BY car_id;
